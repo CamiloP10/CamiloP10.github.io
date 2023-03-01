@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Ingeniero Biomédico",
           "Programador web",
-          "Programador aplicaciones móviles",
+          "Programador app móvil",
         ],
         autoStart: true,
         loop: true,

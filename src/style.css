@@ -11,10 +11,10 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #1335f5;
 }
 
-.purple {
+.blue {
   color: var(--imp-text-color) !important;
 }
 
@@ -407,19 +407,12 @@ button:focus {
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
 }
-.footer-copywright {
-  text-align: center !important;
-}
 
 .footer-body {
-  z-index: 1;
   text-align: center !important;
 }
 
 @media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
 
   .footer-body {
     text-align: center !important;
