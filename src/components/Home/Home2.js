@@ -9,17 +9,29 @@ function Home2() {
     <Container fluid className="home-about-description" id="about">
       <Row>
         <Col>
-        col1
-        </Col>
-        <Col>
           <h3>
-            <span className="blue"> Contacto: </span>
+            Tengo gran afición al mundo Tecnológico, tanto 
+            <b className="blue"> Frontend </b> como <b className="blue"> Backend </b>, 
+            incluso programación de <b className="blue"> microcontroladores </b>. 
+            <br/>
+            Mis objetivos son aprender nuevas funciones sobre diferentes lenguajes de 
+            programación y seguir investigando en temas relacionados con su uso en tecnología,
+            para aplicar los conocimientos adquiridos en <b className="blue"> entornos empresariales 
+            y nuevos proyectos </b>.
           </h3>
         </Col>
-
+        <Col>
+          <h2>
+            <span className="blue"> Contacto: </span>
+          </h2>
+          <h2><span className="wave" role="img" aria-labelledby="wave"> 📧 </span> camilo4614@gmail.com</h2>
+          <h2><span className="wave" role="img" aria-labelledby="wave"> 📞 </span> 320 386 3634</h2>
+        </Col>
       </Row>
-      <b/>
+
       <h1 style={{ fontSize: "2.6em" }}>
+        <br/>
+        <br/>
         <span className="blue"> ESTUDIOS </span>
       </h1>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -46,6 +58,7 @@ function Home2() {
         </Col>
       </Row>
     </Container>
+    
   );
 }
 export default Home2;
