@@ -24,9 +24,13 @@ function About() {
             <h4>
             Inicié con la programación en la universidad donde veía <b className="blue"> lógica de programación </b>  
             con enfoque hacia microcontroladores, utilizando plataformas y entornos de desarrollo 
-            como <b className="blue"> MatLab </b> y <b className="blue"> LabView </b> desarrollé simulaciones y prototipos de diferentes equipos biomédicos, 
-            en los cuales se realizaba toma y análisis de datos o señales por medio de sensores y según 
-            los requerimientos se ejecutaban los actuadores.
+            como <b className="blue"> MatLab </b> y <b className="blue"> LabView </b> desarrollé simulaciones y prototipos de diferentes equipos biomédicos.
+            </h4>
+            <br/>
+            <h4>
+              Luego complementé mis estudios con el proyecto MINTIC2022 adquiriendo mas conocimientos en 
+              <b className="blue"> programación web y movil</b>, actualmente quisiera iniciar mi experiencia 
+              laboral en este gran campo de la programación para <b className="blue"> fortalecer y adquirir mas conocimientos</b>.
             </h4>
           </Col>
           <Col
