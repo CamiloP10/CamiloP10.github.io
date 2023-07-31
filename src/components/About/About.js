@@ -17,20 +17,26 @@ function About() {
               paddingTop: "30px",
               paddingBottom: "50px",
             }}
-          >
+          > 
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Enfoque <strong className="blue">PROGRAMADOR</strong>
+              <strong className="blue">Developer's</strong> focus
             </h1>
             <h4>
-            Inicié con la programación en la universidad donde veía <b className="blue"> lógica de programación </b>  
-            con enfoque hacia microcontroladores, utilizando plataformas y entornos de desarrollo 
-            como <b className="blue"> MatLab </b> y <b className="blue"> LabView </b> desarrollé simulaciones y prototipos de diferentes equipos biomédicos.
+            I began my passion for programming at the university, where I started with <b className="blue">programming logic</b> focused 
+            on <b className="blue">microcontrollers</b>. Using platforms and development environments like <b className="blue">MatLab</b>
+            and <b className="blue">LabView</b>, I developed simulations and prototypes of various biomedical devices.
+            Afterward, I complemented my studies with the MINTIC2022 project, strengthening my skills as a developer and acquiring 
+            abilities in <b className="blue">web and mobile programming</b>.
             </h4>
             <br/>
             <h4>
-              Luego complementé mis estudios con el proyecto MINTIC2022 adquiriendo mas conocimientos en 
-              <b className="blue"> programación web y movil</b>, actualmente quisiera iniciar mi experiencia 
-              laboral en este gran campo de la programación para <b className="blue"> fortalecer y adquirir mas conocimientos</b>.
+            My true passion lies in using technology to <b className="blue">create innovative solutions</b> and positively impact people's lives.
+            While I may be at the early stages of my programming journey, I am committed to <b className="blue">continuous learning</b> and 
+            dedicated to becoming a <b className="blue">proficient developer</b>.
+            </h4>
+            <br/>
+            <h4>
+            Thank you for visiting my portfolio, and I look forward to the opportunity to contribute my skills and enthusiasm to exciting projects and teams in the future!
             </h4>
           </Col>
           <Col
@@ -43,7 +49,7 @@ function About() {
         </Row>
 
         <h1 className="project-heading">
-         <strong className="blue">Conocimientos y habilidades</strong>
+         <strong className="blue">KNOWLEDGE AND SKILLS</strong>
         </h1>
         <Techstack />
       </Container>

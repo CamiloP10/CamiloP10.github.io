@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import appmttos from "../../Assets/Projects/appmttos.png";
 import biomedica from "../../Assets/Projects/biomedicapng.png";
 import pag from "../../Assets/Projects/pag.png";
+import kodland from "../../Assets/Projects/kodland.jpg";
 
 function Projects() {
   return (
@@ -12,45 +13,69 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          <strong className="blue">Trabajos realizados </strong>
+          <strong className="blue">EXPERIENCE </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Proyectos y trabajos realizados recientemente
+          Projects and work carried out
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pag}
-              title="Página web."
-              description="Desarrollo de página web para una distribuidora de belleza, con
-              opción de registro, login de vendedores, actualización de inventario
-              y ventas, página creada utilizando node.js, react y base de datos en
-              MySQL."
+              imgPath={kodland}
+              title="Tutor."
+              description="Currently, I am a tutor at Kodland, where I teach programming remotely to students. I lead courses on game 
+              development in Scratch, Roblox, as well as Python courses tailored to the assigned groups."
             />
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pag}
+              title="Web page."
+              description="Development of a website for a cosmetic shop, with registration option, vendor login, 
+              inventory updates, and sales tracking. The page was created using Node.js, React, and a MySQL database."
+            />
+          </Col>
+
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={appmttos}
-              title="APP móvil."
-              description="Desarrollo de aplicación móvil para generar reportes de
-              mantenimiento de equipos, aplicación creada para uso personal en
-              donde creo y entrego los reportes de servicios realizados a equipos
-              biomédicos, creada con java en Android Studio."
+              title="Mobile application."
+              description="Development of a mobile application for generating maintenance reports for equipment. 
+              This application was created for personal use, allowing me to create and deliver service reports for biomedical equipment. 
+              It was developed using Java in Android Studio."
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={5} className="project-card">
             <ProjectCard
               imgPath={biomedica}
-              title="Proyectos Universidad"
-              description="Diseño y desarrollo de simulaciones y prototipos de diferentes
-              equipos biomédicos, realizando toma y análisis de datos y señales
-              por medo de sensores para ejecutar los actuadores según los
-              requerimientos del equipo"            
+              title="University Projects."
+              description="In university, I worked on designing and developing simulations and prototypes of various biomedical 
+              equipment. This involved data and signal acquisition through sensors to execute actuators according to the equipment's 
+              requirements."            
             />
           </Col>
         </Row>
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+            >
+              <h4 >
+                <b className="blue">
+                  Thank you for visiting my portfolio, and I look forward to the opportunity to contribute my skills 
+                  and enthusiasm to exciting projects and teams in the future!
+                </b>
+              </h4>
+          </Col>
+        
+        </Row>
+
       </Container>
     </Container>
   );
