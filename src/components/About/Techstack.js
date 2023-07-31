@@ -12,6 +12,8 @@ import {
   DiPostgresql,
   DiAndroid
 } from "react-icons/di";
+import matlab from "../../Assets/matlab.png";
+import labview from "../../Assets/labview.png";
 
 function Techstack() {
   return (
@@ -55,6 +57,18 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiAndroid />
         <h5>Android</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={matlab}
+        alt="home pic"
+        style={{ maxHeight: "100px" }} />
+        <h5>MatLab</h5>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={labview}
+        alt="home pic"
+        style={{ maxHeight: "100px" }} />
+        <h5>LabView</h5>
       </Col>
     </Row>
   );

@@ -34,10 +34,6 @@ function About() {
             While I may be at the early stages of my programming journey, I am committed to <b className="blue">continuous learning</b> and 
             dedicated to becoming a <b className="blue">proficient developer</b>.
             </h4>
-            <br/>
-            <h4>
-            Thank you for visiting my portfolio, and I look forward to the opportunity to contribute my skills and enthusiasm to exciting projects and teams in the future!
-            </h4>
           </Col>
           <Col
             md={5}
