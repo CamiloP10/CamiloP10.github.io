@@ -22,7 +22,7 @@ function About() {
               <strong className="blue">Developer's</strong> focus
             </h1>
             <h4>
-            I began my passion for programming at the university, where I started with <b className="blue">programming logic</b> focused 
+            I began my passion for programming at university, where I started with <b className="blue">programming logic</b> focused 
             on <b className="blue">microcontrollers</b>. Using platforms and development environments like <b className="blue">MatLab</b>
             and <b className="blue">LabView</b>, I developed simulations and prototypes of various biomedical devices.
             Afterward, I complemented my studies with the MINTIC2022 project, strengthening my skills as a developer and acquiring 

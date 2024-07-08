@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import appmttos from "../../Assets/Projects/appmttos.png";
 import biomedica from "../../Assets/Projects/biomedicapng.png";
 import pag from "../../Assets/Projects/pag.png";
-import kodland from "../../Assets/Projects/kodland.jpg";
 
 function Projects() {
   return (
@@ -13,18 +12,18 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          <strong className="blue">EXPERIENCE </strong>
+          <strong className="blue">PROJECTS </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Projects and work carried out
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kodland}
-              title="Tutor."
-              description="Currently, I am a tutor at Kodland, where I teach programming remotely to students. I lead courses on game 
-              development in Scratch, Roblox, as well as Python courses tailored to the assigned groups."
+              imgPath={appmttos}
+              title="Mobile application."
+              description="Development of a mobile application for generating maintenance reports for equipment. 
+              This application was created for personal use, allowing me to create and deliver service reports for biomedical
+             equipment, the APP improved the efficiency of maintenance processes and accuracy in equipment management. 
+              It was developed using Java in Android Studio."
             />
           </Col>
 
@@ -37,26 +36,66 @@ function Projects() {
             />
           </Col>
 
-          <Col md={5} className="project-card">
-            <ProjectCard
-              imgPath={appmttos}
-              title="Mobile application."
-              description="Development of a mobile application for generating maintenance reports for equipment. 
-              This application was created for personal use, allowing me to create and deliver service reports for biomedical equipment. 
-              It was developed using Java in Android Studio."
-            />
-          </Col>
-
-          <Col md={5} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={biomedica}
               title="University Projects."
-              description="In university, I worked on designing and developing simulations and prototypes of various biomedical 
-              equipment. This involved data and signal acquisition through sensors to execute actuators according to the equipment's 
-              requirements."            
+              description="In university, I worked on simulation and prototype projects of biomedical equipment using Java, C, 
+              MATLAB, and LabVIEW. These projects involved data and signal acquisition, digital processing of biomedical 
+              images, and control of sensors and actuators to simulate the operation of biomedical devices."            
             />
           </Col>
         </Row>
+
+        <h1 className="project-heading">
+          <strong className="blue">PROFESSIONAL EXPERIENCE </strong>
+        </h1>
+        <p style={{ color: "gray" }}>
+        <br/>
+        <br/>
+        <h5>
+            <b className="blue">Tutor, KODLAND PTE. LTD | 03/2023 - present</b>
+            <br />
+            ➢Currently, I am a tutor at Kodland, where I teach programming remotely to students. I lead courses on game development in Scratch, Roblox, as well as Python courses tailored to the assigned groups.
+            <br />
+            <br />
+
+            <b className="blue">Biomedical Engineer, IB – INBIOCOL DE COLOMBIA LTDA. | 04/2022 – 02/2023</b>
+            <br />
+            ➢ Developed a mobile application to generate maintenance reports for biomedical equipment using Java in Android Studio, improving maintenance process efficiency.
+            <br />
+            ➢ Provided biomedical engineering services to contracted hospitals and clinics.
+            <br />
+            ➢ Managed medical equipment databases and coordinated quality audits.
+            <br />
+            <br />
+
+            <b className="blue">Senior Biomedical Support, PHARMACEUTICAL SUPPLY CHAIN SAS. | 09/2021 – 04/2022</b>
+            <br />
+            ➢ Provided biomedical engineering services to contracted hospitals and clinics
+            <br />
+            ➢ Controlled the database of all equipment, supplies, and schedules.
+            <br />
+            ➢ Supported audit visits, ensuring compliance with regulatory standards
+            <br />
+            <br />
+
+            <b className="blue">Biomedical Intern, VIRREY SOLIS IPS-MEDICALL. | 02/2020 – 08/2020</b>
+            <br />
+            ➢ Supported the biomedical management process and control of the medical equipment database across IPS branches nationwide.
+            <br />
+            ➢ Performed preventive maintenance on medical equipment, ensuring optimal functionality.
+            <br />
+            <br />
+
+            <b className="blue">Biomedical Technician, MARQUETINGNET S A S. | 06/2018 – 12/2018</b>
+            <br />
+            ➢ Provide technical support, perform installations, carry out preventive and corrective maintenance on veterinary medical equipment.
+            <br />
+            <br />
+        </h5>
+        </p>
+
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}

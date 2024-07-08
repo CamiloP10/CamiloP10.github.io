@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logoUMB from "../../Assets/logoUMB.png";
 import logoUNAB from "../../Assets/logoUNAB.png";
-import logoSENA from "../../Assets/logoSENA.png";
+import logoCTI from "../../Assets/logoCTI.png";
 
 function Home2() {
   return (
@@ -50,10 +50,10 @@ function Home2() {
         </Col>
         <Col xs={1} md={1} className="tech-icons">
           <i>
-            <b className="blue"> <h1> Technician in computer equipment maintenance </h1></b>
+            <b className="blue"> <h1> Diploma of IT Cybersecurity </h1></b>
           </i>
-          <img src={logoSENA} className="img-fluid" alt="avatar" width="100" height="100" />
-          <h4> SENA </h4>
+          <img src={logoCTI} className="img-fluid" alt="avatar" width="100" height="100" />
+          <h4> Canterbury Technical Institute  - currently studying </h4>
         </Col>
       </Row>
       <h1 style={{ fontSize: "2.6em" }}>
