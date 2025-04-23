@@ -54,13 +54,13 @@ function Projects() {
         <br/>
         <br/>
         <h5>
-            <b className="blue">Tutor, KODLAND PTE. LTD | 03/2023 - present</b>
+            <b className="blue">Tutor, KODLAND PTE. LTD</b>
             <br />
             ➢Currently, I am a tutor at Kodland, where I teach programming remotely to students. I lead courses on game development in Scratch, Roblox, as well as Python courses tailored to the assigned groups.
             <br />
             <br />
 
-            <b className="blue">Biomedical Engineer, IB – INBIOCOL DE COLOMBIA LTDA. | 04/2022 – 02/2023</b>
+            <b className="blue">Biomedical Engineer, IB – INBIOCOL DE COLOMBIA LTDA.</b>
             <br />
             ➢ Developed a mobile application to generate maintenance reports for biomedical equipment using Java in Android Studio, improving maintenance process efficiency.
             <br />
@@ -70,7 +70,7 @@ function Projects() {
             <br />
             <br />
 
-            <b className="blue">Senior Biomedical Support, PHARMACEUTICAL SUPPLY CHAIN SAS. | 09/2021 – 04/2022</b>
+            <b className="blue">Senior Biomedical Support, PHARMACEUTICAL SUPPLY CHAIN SAS.</b>
             <br />
             ➢ Provided biomedical engineering services to contracted hospitals and clinics
             <br />
@@ -80,7 +80,7 @@ function Projects() {
             <br />
             <br />
 
-            <b className="blue">Biomedical Intern, VIRREY SOLIS IPS-MEDICALL. | 02/2020 – 08/2020</b>
+            <b className="blue">Biomedical Intern, VIRREY SOLIS IPS-MEDICALL.</b>
             <br />
             ➢ Supported the biomedical management process and control of the medical equipment database across IPS branches nationwide.
             <br />
@@ -88,7 +88,7 @@ function Projects() {
             <br />
             <br />
 
-            <b className="blue">Biomedical Technician, MARQUETINGNET S A S. | 06/2018 – 12/2018</b>
+            <b className="blue">Biomedical Technician, MARQUETINGNET S A S.</b>
             <br />
             ➢ Provide technical support, perform installations, carry out preventive and corrective maintenance on veterinary medical equipment.
             <br />
