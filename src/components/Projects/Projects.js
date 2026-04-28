@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import appmttos from "../../Assets/Projects/appmttos.png";
+import appLB from "../../Assets/Projects/APPLaBelleza.png";
 import biomedica from "../../Assets/Projects/biomedicapng.png";
 import pag from "../../Assets/Projects/pag.png";
 
@@ -15,6 +16,18 @@ function Projects() {
           <strong className="blue">PROJECTS </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={appLB}
+              title="Smart Cash & Billing Manager."
+              description="A high-performance mobile application developed with Kotlin and 
+              Jetpack Compose to optimize financial cash-out processes. It implements complex
+               arithmetic logic for multi-denomination counting and real-time billing. 
+               The app features a reactive UI, local data persistence, and a focus on reducing
+                human error in fast-paced commercial environments."
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
